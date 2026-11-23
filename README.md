@@ -23,7 +23,7 @@ A Laravel MVC point-of-sale starter application with staff authentication, produ
 6. Visit `http://127.0.0.1:8000`.
 
 ## Demo account
-- Email: `admin@example.com`
+- Email: `admin@gmail.com`
 - Password: `password`
 
 Change the demo password immediately in any non-local environment. The seeder creates this account only for local/demo use.
@@ -56,5 +56,3 @@ Change the demo password immediately in any non-local environment. The seeder cr
 8. Run `php artisan config:cache && php artisan route:cache && php artisan view:cache`.
 9. Remove/disable demo credentials and create unique staff accounts.
 
-## Notes
-This archive contains application source and Laravel configuration, not the installed Laravel framework (`vendor/`) or a live hosted instance. Composer installs the framework. Screenshots and a final reflection should be captured from your own running deployment; do not submit fabricated screenshots.
