@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Add Staff') @section('content')<h2>Add Staff Account</h2><div class="card p-4"><form method="POST" enctype="multipart/form-data" action="{{ route('staff.store') }}">@csrf @include('staff.form')<button class="btn btn-primary">Create Account</button></form></div>@endsection

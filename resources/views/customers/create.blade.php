@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Add Customer') @section('content')<h2>Add Customer</h2><div class="card p-4"><form method="POST" action="{{ route('customers.store') }}">@csrf @include('customers.form')<button class="btn btn-primary">Save Customer</button></form></div>@endsection
